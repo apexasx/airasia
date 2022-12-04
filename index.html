@@ -12,7 +12,7 @@
   <div class="wrapper">
     <div class="wrapper__content">
       <header class="header">
-        <div class="conteiner header__conteiner">
+        <div class="container header__conteiner">
           <a href="#" class="logo">
             <img src="" alt="" class="logo__img">
           </a>
@@ -30,8 +30,8 @@
             </ul>
           </nav>
           <address class="contacts">
-            <a href="tel +78007003030" class="contecs__phone">88007003030</a>
-            <div class="contecs__info">График работы</div>
+            <a href="tel +78007003030" class="contacts__phone">88007003030</a><!--исправил-->
+            <div class="contacts__info">График работы</div>
           </address>
         </div>
 
@@ -46,7 +46,7 @@
         </section>
 
         <section class="offers">
-          <div class="conteiner">
+          <div class="container">
             <h2 class="title title--fire">Горящие туры</h2>
             <ul class="offer__list">
               <li class="offers__item">
@@ -117,7 +117,7 @@
         </section>
 
         <section class="news">
-          <div class="conteiner">
+          <div class="container"> <!--исправио все container-->
             <h2 class="title">Новости и акции</h2>
             <ul class="news__list">
               <li class="news__item">
@@ -138,22 +138,23 @@
                 </div>
               </li>
             </ul>
+            <div class="news__paginator">       <!--исправил-->
+                <div class="news__paginator-displey">Страница 1 из 7</div>
+                <ul class="news__paginator-list">
+                  <li class="news__paginator-item">1</li>
+                  <li class="news__paginator-item">2</li>
+                  <li class="news__paginator-item">3</li>
+                  <li class="news__paginator-item">4</li>
+                  <li class="news__paginator-item">5</li>
+                  <li class="news__paginator-item">6</li>
+                  <li class="news__paginator-item">7</li>
+                </ul>
+              </div>
           </div>
         </section>
 
-        <div class="paginator">
-          <div class="paginator__displey">Страница 1 из 7</div>
-          <ul class="paginator__list">
-            <li class="paginator__item">1</li>
-            <li class="paginator__item">2</li>
-            <li class="paginator__item">3</li>
-            <li class="paginator__item">4</li>
-            <li class="paginator__item">5</li>
-            <li class="paginator__item">6</li>
-            <li class="paginator__item">7</li>
-          </ul>
-        </div>
-        <section class="adout">
+     
+        <section class="about"> <!--исправил-->
           <img src="#" alt="" class="aboute__img">
           <div class="aboute__item">
             <img src="#" alt="" class="aboute__img">
@@ -169,7 +170,7 @@
     </div>
 
     <footer class="footer">
-      <div class="conteiner footer__conteiner">
+      <div class="container footer__conteiner">
         <a href="#" class="logo">
           <img src="" alt="" class="logo__img">
         </a>
@@ -186,27 +187,33 @@
             </li>
           </ul>
         </nav>
-        <nav class="network">
-          <ul class="network__list">
-            <li>
-              <a class="network__telegram" href="#" title="telegram" target="_blank">
-                <img src="#" alt="" class="network__img-telegram">
-              </a>
-              <a class="network__vk" href="#" title="vk" target="_blank">
-                <img src="#" alt="" class="network__img-vk">
-              </a>
-              <a class="network__facebook" href="#" title="facebook" target="_blank">
-                <img src="#" alt="" class="network__img-facebook">
-              </a>
-              <a class="network__instagram" href="#" title="instagram" target="_blank">
-                <img src="#" alt="" class="network__img-instagram">
-              </a>
+        <div class="socials"> <!--исправил-->
+          <ul class="socials__list">
+            <li class="social__item">
+                <a class="socials__telegram" href="#" title="telegram" target="_blank">
+                    <img src="#" alt="" class="socials__img-telegram">
+                </a>
+            </li>
+            <li class="social__item">  
+                <a class="socials__vk" href="#" title="vk" target="_blank">
+                    <img src="#" alt="" class="socials__img-vk">
+                 </a>
+            </li>
+            <li class="social__item"> 
+                 <a class="socials__facebook" href="#" title="facebook" target="_blank">
+                    <img src="#" alt="" class="socials__img-facebook">
+                </a>
+            </li>
+            <li class="social__item">
+                <a class="socials__instagram" href="#" title="instagram" target="_blank">
+                    <img src="#" alt="" class="socials__img-instagram">
+                </a>
             </li>
           </ul>
-        </nav>
+        </div>
         <address class="contacts">
-          <a href="tel +78007003030" class="contecs__phone">88007003030</a>
-          <div class="contecs_info">График работы</div>
+          <a href="tel +78007003030" class="contacts__phone">88007003030</a>
+          <div class="contacts_info">График работы</div><!--исправил-->
         </address>
       </div>
       </header>
