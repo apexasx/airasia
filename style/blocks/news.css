@@ -94,8 +94,9 @@
   line-height: 30px;
 }
 
-.news__paginator-item:hover {
-  background: #FFFFFF;
+.news__paginator-link:hover {
+  background: #fff;
+  color: #F5170E;
   border-radius: 100%;
   width: 30px;
 }

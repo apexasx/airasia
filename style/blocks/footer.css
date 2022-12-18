@@ -21,6 +21,10 @@
 	margin-right: 54px;
 }
 
+.footer__menu-item:hover {
+	color: rgb(255, 0, 0);
+}
+
 .footer__menu-item:last-child {
 	margin-right: 0;
 }
@@ -54,13 +58,13 @@
 
 .footer__info {
 	font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 20px;
-display: flex;
-align-items: center;
-color: #9A9A9A;
-justify-content: flex-end;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	color: #9A9A9A;
+	justify-content: flex-end;
 
 }
 
@@ -88,6 +92,7 @@ justify-content: flex-end;
 
 .social__item {
 	margin-right: 10px;
+	cursor: pointer;
 }
 
 .social__item:last-child {
