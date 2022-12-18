@@ -68,7 +68,6 @@ img {
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	overflow: hidden;
 	max-width: 1920px;
 	max-height: 2930px;
 	width: 1920px;
@@ -166,7 +165,7 @@ img {
 	top: 61%;
 	left: 87%;
 	transform: translate(-50%, -50%);
-	}
+}
 
 .button {
 	width: 135px;

@@ -27,10 +27,6 @@
 	color: #DA0100;
 }
 
-.footer__menu-item:last-child {
-	/* margin-right: 0; */
-}
-
 .footer__contacts {
 	flex-direction: column;
 	display: flex;
@@ -56,7 +52,6 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 11px;
-	/* line-height: 20px; */
 	display: flex;
 	color: #9A9A9A;
 	align-self: flex-end;
@@ -65,9 +60,6 @@
 .socials {
 	display: flex;
 	margin-right: 10px;
-	/* display: inline-block; */
-	/* padding-top: 30px;
-	padding-left: 250px; */
 }
 
 .socials__img-telegram:hover {
@@ -89,8 +81,4 @@
 .social__item {
 	margin-right: 10px;
 	cursor: pointer;
-}
-
-.social__item:last-child {
-	/* margin-right: 0; */
 }
