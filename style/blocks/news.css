@@ -62,8 +62,8 @@
 
 .news__paginator {
   margin-top: 80px;
-  text-align: center;
   display: flex;
+  text-align: center;
   justify-content: center;
 }
 
@@ -78,25 +78,24 @@
 }
 
 .news__paginator-list {
-  cursor: pointer;
-  justify-content: space-between;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 30px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  /* gap: 24px; */
 }
 
 .news__paginator-item {
   display: inline-block;
-  margin-right: 20px;
-  line-height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .news__paginator-link:hover {
   background: #fff;
   color: #F5170E;
-  border-radius: 100%;
-  width: 30px;
+  border-radius: 60%;
 }

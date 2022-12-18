@@ -1,12 +1,12 @@
-.aboute {
-  margin-top: 152px;
-  height: 552px;
+.about {
+  /* margin-top: 152px; */
+  height: 450px;
 }
-.aboute__container {
+.about__container {
   position: relative;
 }
 
-.aboute__img {
+.about__img {
   float: left;
   width: 490px;
   height: 505px;
@@ -14,7 +14,7 @@
   top: 2175px;
 }
 
-.aboute__content {
+.about__content {
   background: url(../../img/mountains.png) no-repeat;
   position: absolute;
   top: 97px;
@@ -26,7 +26,7 @@
   padding-bottom: 66px
 }
 
-.aboute__text {
+.about__text {
   margin-top: 37px; 
   margin-left: 81;
   margin-right: 202;
@@ -40,6 +40,6 @@
   align-items: center;
 }
 
-.aboute__button {
+.about__button {
   margin-top: 37px;
 }
