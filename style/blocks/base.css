@@ -189,3 +189,12 @@ img {
 	border: 1px solid #f5170e
 }
 
+.button--light:hover {
+	background: #F5170E;
+	color: #fff;
+}
+
+.button--red:hover {
+	background: #fff;
+	color: #F5170E;
+}
