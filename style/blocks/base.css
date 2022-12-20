@@ -79,7 +79,6 @@ img {
 
 .background {
 	background: url(../../img/background.jpg) center no-repeat;
-	position: absolute;
 	height: 2930px;
 	width: 1920px;
 }
