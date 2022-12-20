@@ -63,7 +63,6 @@ img {
 }
 
 .wrapper {
-	overflow: hidden;
 	min-height: 100%;
 	margin: 0 auto;
 	display: flex;
@@ -74,13 +73,10 @@ img {
 
 .wrapper__content {
 	position: relative;
-	height: 100vh;
 }
 
 .background {
-	background: url(../../img/background.jpg) center no-repeat;
-	height: 2930px;
-	width: 1920px;
+	background: url(../../img/background.jpg) no-repeat;
 }
 
 .container {

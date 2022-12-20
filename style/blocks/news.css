@@ -8,13 +8,12 @@
 
 .news__img-surf {
   position: absolute;
-  left: 971px;
+  margin-left: 140px;
 }
 
 .news__img-plain {
   position: absolute;
   margin-right: 20px;
-  left: 389px;
   width: 557px;
 }
 
