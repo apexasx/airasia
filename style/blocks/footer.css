@@ -15,8 +15,6 @@
 	align-items: center;
 	justify-content: space-between;
 	align-items: flex-end;
-	margin-right: 90px;
-
 }
 
 .footer__menu-item {
@@ -59,7 +57,6 @@
 
 .socials {
 	display: flex;
-	margin-right: 10px;
 }
 
 .socials__img-telegram:hover {

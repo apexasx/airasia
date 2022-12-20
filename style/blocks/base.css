@@ -69,8 +69,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	max-width: 1920px;
-	max-height: 2930px;
-	width: 1920px;
+	width: 100%;
 }
 
 .wrapper__content {
